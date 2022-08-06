@@ -72,7 +72,10 @@ if( $images ): ?>
 			</video>
 			<div class="box-cont"><h3><?php echo esc_html( $subhead ); ?></h3>
 										<h2><?php echo esc_html( $head ); ?></h2>
-										<a href="<?php the_sub_field('button_link'); ?>">Learn more</a></div></li>
+										<?php if(get_sub_field('button_link')): ?>
+										<a href="<?php the_sub_field('button_link'); ?>">Learn more</a>
+										<?php endif; ?>
+										</div></li>
 				
 		</li>
 		<?php } else {?>
@@ -80,7 +83,10 @@ if( $images ): ?>
 							<img src="<?php echo $image["sizes"]["large"]; ?>" alt="<?php echo $image[
     "alt"]; ?>" />	<div class="box-cont"><h3><?php echo esc_html( $subhead ); ?></h3>
 										<h2><?php echo esc_html( $head ); ?></h2>
-										<a href="<?php the_sub_field('button_link'); ?>">Learn more</a></div></li>
+										<?php if(get_sub_field('button_link')): ?>
+										<a href="<?php the_sub_field('button_link'); ?>">Learn more</a>
+										<?php endif; ?>
+										</div></li>
 	<?php } endforeach; ?>
 <?php endif; ?>
 </ul>
