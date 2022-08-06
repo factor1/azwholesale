@@ -66,7 +66,7 @@ if( $images ): ?>
 		$data_type = pathinfo($image['url'], PATHINFO_EXTENSION);
 		if ($data_type == 'mp4') {?>
 		<li class="item">
-			<video   width="100%" height="100%" autoplay loop muted playsinline>
+			<video   width="auto" height="100%" autoplay loop muted playsinline>
 				<source src="<?php echo $image['url'];?>" type="video/mp4">
 
 			</video>
