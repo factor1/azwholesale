@@ -55,7 +55,7 @@
                     </form>
                   </div>
 		<nav id="site-navigation" class="main-navigation">
-				<a class="search-box"><img src="/wp-content/uploads/2022/07/search-icon.svg"></a>
+<!-- 				<a class="search-box"><img src="/wp-content/uploads/2022/07/search-icon.svg"></a> -->
 			
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><img src="/wp-content/uploads/2022/07/toggle.svg"></button>
 			<?php
