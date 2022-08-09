@@ -1,22 +1,20 @@
 <?php
 /* Template Name: Home Page */
+
+$video_url = get_field('video');
 ?>
 <?php get_header(); ?>
 
 				<div class="section01">				
 						<div class="col-md-12"  >
-							<?php if( get_field('video') ): ?>
-								
-									<div class="c-hero-homepage__iframe" style="background-image:url(<?php the_field('video_placeholder'); ?>)">
-										<div class="js-vimeo-player" data-vimeo-initialized="true">
-										  <!-- <iframe src="<?php the_field('video'); ?>?autoplay=1&amp;loop=1&amp;background=1&amp;muted=1&amp;autopause=0" width="100%" height="600" frameborder="0" ></iframe>
-										-->   <video  width="100%" height="315" autoplay loop muted playsinline>
-						  <source src="<?php the_field('video'); ?>" type="video/mp4">
-						</video>	
-												 <span data-aos="fade-right" data-aos-once="true" data-aos-offset="300" data-aos-easing="ease-in-sine"><h1 > <?php the_field('sec1heading'); ?></h1>  </span>						
-										</div>
-										
-									 </div>						
+							<?php if( $video_url ): ?>
+
+								<div class="hero__video">
+									<video autoplay loop muted playsinline>
+										<source src="<?php echo $video_url; ?>" type="video/mp4">
+									</video>
+								</div>
+
 							<?php endif; ?>	
 						</div>			
 				</div>
