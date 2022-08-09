@@ -2102,8 +2102,15 @@ body h2 {
 .text-center.col-md-12.innovation-sec-2-top .col{
    display: inline-block;
    width: 18%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 200px;
    margin: 0 .5%;
 }
+
+.text-center.col-md-12.innovation-sec-2-top .col:before{content:"";display:block;margin-top:100%;}
+
+
 .text-center.col-md-12.innovation-sec-2-top .col:first-child{
    margin-left: 0;
 }

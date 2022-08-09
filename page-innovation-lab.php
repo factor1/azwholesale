@@ -16,11 +16,11 @@
 	<div class="arizona_section innovation-sec-2 padding-top-100 padding-bottom-100">				
 		<div class="container">
 			<div class="text-center col-md-12 innovation-sec-2-top">
-				<div class="col"><img src="<?php echo the_field('innovation_sec2_img1'); ?>"></div> 
-				<div class="col"><img src="<?php echo the_field('innovation_sec2_img2'); ?>"> </div>
-				<div class="col"><img src="<?php echo the_field('innovation_sec2_img3'); ?>"> </div>
-				<div class="col"><img src="<?php echo the_field('innovation_sec2_img4'); ?>"> </div>
-				<div class="col"><img src="<?php echo the_field('innovation_sec2_img5'); ?>"> </div>
+				<div class="col" style="background-image: url(<?php echo the_field('innovation_sec2_img1'); ?>)"></div> 
+				<div class="col" style="background-image: url(<?php echo the_field('innovation_sec2_img2'); ?>)"></div> 
+				<div class="col" style="background-image: url(<?php echo the_field('innovation_sec2_img3'); ?>)"></div> 
+				<div class="col" style="background-image: url(<?php echo the_field('innovation_sec2_img4'); ?>)"></div> 
+				<div class="col" style="background-image: url(<?php echo the_field('innovation_sec2_img5'); ?>)"></div> 
 			</div>
 			<div class="innovation-sec-2-bot">		 
 				<?php echo the_field('innovation_sec2_text'); ?>
