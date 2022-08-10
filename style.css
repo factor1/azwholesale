@@ -1968,7 +1968,7 @@ ul.form-link li {
     margin-top: 100px;
 }
 .sale-expert h2 {
-    width: 57%;
+    width: 80%;
 }
 .map-form input[type="submit"] {
     font-family: 'Poppins';
@@ -2535,6 +2535,10 @@ ul.logo_section {
 .text-center.col-md-12.innovation-sec-2-top .col {
 	width: 48%;
 	min-height: auto;
+}
+
+.sale-expert h2 {
+    width: 100%;
 }
 
 footer *{
