@@ -1189,10 +1189,6 @@ ul#primary-menu a {
     justify-content: center;
 }
 
-.section01 .hero__video video {
-    width: 100%;
-}
-
 .custom-logo {
     position: relative;
     top: 14px;
@@ -2171,6 +2167,11 @@ body h2 {
 @media screen and (max-width:768px){
    .sec2logo{display:none;}
 
+    header#masthead {
+        background: #639393;
+        height: 85px;
+    }
+
 }
 
 @media (max-width:1350px){
@@ -2497,7 +2498,8 @@ ul, ol{
     padding: 93px 0;
 }
 .section01 {
-    height: 30vh;
+    height: 220px;
+    margin-top: 85px;
 }
 .search-container {
     padding: 6px;
