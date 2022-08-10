@@ -1222,7 +1222,7 @@ color: #639393;
 .sec2-subhead {
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     letter-spacing: -0.01em;
     color: #101010;
     font-family: 'marionregular';
@@ -2338,6 +2338,7 @@ ul.list_content p {
 }
 ul.sec4_content li.item {
     height: auto;
+    max-height: 250px;
 }
 /*.section-04 video{
    width: 100%;
@@ -2530,4 +2531,15 @@ ul.logo_section {
 .arizona_section.inner-section-1 h5{
    font-size: 20px ;
 }
+
+.text-center.col-md-12.innovation-sec-2-top .col {
+	width: 48%;
+	min-height: auto;
+}
+
+footer *{
+	font-size: 1.1rem;
+}
+
+
 }

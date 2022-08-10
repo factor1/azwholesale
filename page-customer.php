@@ -44,8 +44,9 @@
 			<div class="col-md-12"  >
 				<div class="sale-expert">
 					<h2><?php echo the_field('sales_expert_heading'); ?>	</h2>
+					<?php gravity_form( 2, false, false, false, '', false ); ?>
 				</div>
-				<div class="sales-map-form">
+				<div class="sales-map-form" style="display: none !important;">
 					<div class="map-form">
 						<input type="text" placeholder="Texas">
 						<input type="submit" value="Search"></>

@@ -48,7 +48,7 @@
 		<div class="container">
 			<div class="col-md-12 innovation-sec-4-left">
 				<h2><?php echo the_field('innovation_sec4_heading'); ?></h2>
-				<?php echo do_shortcode('[wpforms id="340" title="false"]'); ?>
+				<?php gravity_form( 1, false, false, false, '', false ); ?>
 			</div>
 			<div class="innovation-sec-4-right">		 
 				<img src="<?php echo the_field('innovation_sec4_image'); ?>">
